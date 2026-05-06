@@ -14,6 +14,7 @@ export default function FormCrearLibro({ onLibroCreado }: FormCrearLibroProps) {
   const { topics, loading: loadingTopics, error: topicsError } = useTopics()
   const [rating, setRating] = useState(0)
   const [flag, setFlag] = useState(false)
+  const [adquirido, setAdquirido] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -39,6 +40,7 @@ export default function FormCrearLibro({ onLibroCreado }: FormCrearLibroProps) {
       prestadoA: formData.get('prestadoA') || '',
       rating: rating,
       flag: flag,
+      adquirido: adquirido,
     }
 
     try {
@@ -289,8 +291,8 @@ export default function FormCrearLibro({ onLibroCreado }: FormCrearLibroProps) {
         />
       </div>
 
-      {/* Rating y Flag */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {/* Rating y Checkboxes */}
+      <div className="space-y-4">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Rating
@@ -298,17 +300,31 @@ export default function FormCrearLibro({ onLibroCreado }: FormCrearLibroProps) {
           <StarRating rating={rating} onRatingChange={setRating} />
         </div>
 
-        <div className="flex items-center">
-          <input
-            type="checkbox"
-            id="flag"
-            checked={flag}
-            onChange={(e) => setFlag(e.target.checked)}
-            className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-          />
-          <label htmlFor="flag" className="ml-2 block text-sm text-gray-700">
-            Marcar
-          </label>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex items-center">
+            <input
+              type="checkbox"
+              id="flag"
+              checked={flag}
+              onChange={(e) => setFlag(e.target.checked)}
+              className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+            />
+            <label htmlFor="flag" className="ml-2 block text-sm text-gray-700">
+              Marcar
+            </label>
+          </div>
+          <div className="flex items-center">
+            <input
+              type="checkbox"
+              id="adquirido"
+              checked={adquirido}
+              onChange={(e) => setAdquirido(e.target.checked)}
+              className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+            />
+            <label htmlFor="adquirido" className="ml-2 block text-sm text-gray-700">
+              Adquirido
+            </label>
+          </div>
         </div>
       </div>
 

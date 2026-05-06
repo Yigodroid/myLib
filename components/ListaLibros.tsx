@@ -22,6 +22,7 @@ interface Libro {
   prestadoA: string
   rating: number
   flag: boolean
+  adquirido: boolean
 }
 
 interface ListaLibrosProps {
@@ -120,6 +121,34 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
       }
     } catch (error) {
       console.error('Error al actualizar flag:', error)
+    }
+  }
+
+  // Función para actualizar adquirido
+  const actualizarAdquirido = async (libroId: number, nuevoAdquirido: boolean) => {
+    try {
+      const response = await fetch('/api/libros', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          id: libroId,
+          adquirido: nuevoAdquirido,
+        }),
+      })
+
+      if (response.ok) {
+        // Actualizar el estado local
+        setLibrosConImagenes(prevLibros =>
+          prevLibros.map(libro =>
+            libro.id === libroId ? { ...libro, adquirido: nuevoAdquirido } : libro
+          )
+        )
+        onActualizar() // Refrescar datos del padre
+      }
+    } catch (error) {
+      console.error('Error al actualizar adquirido:', error)
     }
   }
 
@@ -306,6 +335,21 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
                   className="ml-2 text-xs text-gray-600 cursor-pointer"
                 >
                   Marcar
+                </label>
+              </div>
+              <div className="flex items-center">
+                <input
+                  type="checkbox"
+                  id={`adquirido-${libro.id}`}
+                  checked={libro.adquirido || false}
+                  onChange={() => actualizarAdquirido(libro.id, !libro.adquirido)}
+                  className="h-3 w-3 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+                />
+                <label
+                  htmlFor={`adquirido-${libro.id}`}
+                  className="ml-2 text-xs text-gray-600 cursor-pointer"
+                >
+                  Adquirido
                 </label>
               </div>
             </div>

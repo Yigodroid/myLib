@@ -64,6 +64,7 @@ export async function POST(request: Request) {
       prestadoA: datos.prestadoA || '',
       rating: datos.rating || 0,
       flag: datos.flag || false,
+      adquirido: datos.adquirido || false,
     }
 
     // Agregar nuevo libro
@@ -145,6 +146,7 @@ export async function PUT(request: Request) {
       prestadoA: datos.prestadoA || libros[index].prestadoA,
       rating: datos.rating !== undefined ? datos.rating : libros[index].rating,
       flag: datos.flag !== undefined ? datos.flag : libros[index].flag,
+      adquirido: datos.adquirido !== undefined ? datos.adquirido : libros[index].adquirido,
     }
 
     libros[index] = libroActualizado

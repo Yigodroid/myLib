@@ -17,6 +17,7 @@ interface Libro {
   prestadoA: string
   rating: number
   flag: boolean
+  adquirido: boolean
 }
 
 interface DashboardProps {
@@ -31,6 +32,8 @@ export default function Dashboard({ libros, onFiltrar, onLimpiarFlags }: Dashboa
   const librosConFlag = libros.filter(libro => libro.flag).length
   const librosLeidos = libros.filter(libro => libro.leido).length
   const librosNoLeidos = totalLibros - librosLeidos
+  const librosAdquiridos = libros.filter(libro => libro.adquirido).length
+  const librosNoAdquiridos = totalLibros - librosAdquiridos
 
   // Contar libros por temática
   const tematicasCount: Record<string, number> = {}
@@ -73,7 +76,7 @@ export default function Dashboard({ libros, onFiltrar, onLimpiarFlags }: Dashboa
       </div>
 
       {/* Total de libros y métricas */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
         <div
           onClick={() => onFiltrar(null)}
           className="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg p-4 sm:p-6 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105"
@@ -114,6 +117,30 @@ export default function Dashboard({ libros, onFiltrar, onLimpiarFlags }: Dashboa
               <p className="text-2xl sm:text-3xl font-bold">{librosNoLeidos}</p>
             </div>
             <div className="text-3xl sm:text-4xl">📕</div>
+          </div>
+        </div>
+        <div
+          onClick={() => onFiltrar('FILTER_ADQUIRIDO')}
+          className="bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-lg p-4 sm:p-6 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105"
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="text-sm sm:text-lg font-semibold mb-2">Adquiridos</h3>
+              <p className="text-2xl sm:text-3xl font-bold">{librosAdquiridos}</p>
+            </div>
+            <div className="text-3xl sm:text-4xl">🛒</div>
+          </div>
+        </div>
+        <div
+          onClick={() => onFiltrar('FILTER_NO_ADQUIRIDO')}
+          className="bg-gradient-to-r from-orange-500 to-amber-600 text-white rounded-lg p-4 sm:p-6 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105"
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="text-sm sm:text-lg font-semibold mb-2">No Adquiridos</h3>
+              <p className="text-2xl sm:text-3xl font-bold">{librosNoAdquiridos}</p>
+            </div>
+            <div className="text-3xl sm:text-4xl">📋</div>
           </div>
         </div>
       </div>

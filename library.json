@@ -17,7 +17,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20091,
@@ -36,7 +37,8 @@
       "leido": true,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20114,
@@ -55,7 +57,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20019,
@@ -74,7 +77,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20081,
@@ -93,7 +97,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20020,
@@ -131,7 +136,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20120,
@@ -150,7 +156,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20100,
@@ -169,7 +176,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20092,
@@ -207,7 +215,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20068,
@@ -226,7 +235,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20121,
@@ -245,7 +255,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20056,
@@ -283,7 +294,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20062,
@@ -321,7 +333,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20065,
@@ -359,7 +372,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20006,
@@ -416,7 +430,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20063,
@@ -435,7 +450,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20027,
@@ -473,7 +489,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20038,
@@ -530,7 +547,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20087,
@@ -549,7 +567,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20075,
@@ -587,7 +606,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20106,
@@ -606,7 +626,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20001,
@@ -644,7 +665,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20040,
@@ -682,7 +704,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20080,
@@ -701,7 +724,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20009,
@@ -720,7 +744,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 5,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20064,
@@ -796,7 +821,8 @@
       "leido": true,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20048,
@@ -834,7 +860,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20007,
@@ -853,7 +880,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20050,
@@ -891,7 +919,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20029,
@@ -929,7 +958,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20103,
@@ -948,7 +978,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20104,
@@ -967,7 +998,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20002,
@@ -1043,7 +1075,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20116,
@@ -1062,7 +1095,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20105,
@@ -1081,7 +1115,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20118,
@@ -1100,7 +1135,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20031,
@@ -1138,7 +1174,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20082,
@@ -1157,7 +1194,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20022,
@@ -1233,7 +1271,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20110,
@@ -1252,7 +1291,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20039,
@@ -1328,7 +1368,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20097,
@@ -1347,7 +1388,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20078,
@@ -1366,7 +1408,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20126,
@@ -1461,7 +1504,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20044,
@@ -1518,7 +1562,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20057,
@@ -1632,7 +1677,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20013,
@@ -1670,7 +1716,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20094,
@@ -1689,7 +1736,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20028,
@@ -1727,7 +1775,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20024,
@@ -1784,7 +1833,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": true,
+      "adquirido": true
     },
     {
       "id": 20115,
@@ -1803,7 +1853,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20108,
@@ -1822,7 +1873,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20109,
@@ -1841,7 +1893,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20025,
@@ -1955,7 +2008,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20015,
@@ -2012,7 +2066,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20079,
@@ -2031,7 +2086,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20046,
@@ -2088,7 +2144,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20084,
@@ -2107,7 +2164,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20117,
@@ -2126,7 +2184,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20055,
@@ -2145,7 +2204,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20042,
@@ -2164,7 +2224,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20067,
@@ -2183,7 +2244,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20090,
@@ -2202,7 +2264,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20071,
@@ -2221,7 +2284,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20072,
@@ -2240,7 +2304,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     },
     {
       "id": 20010,
@@ -2278,7 +2343,8 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": false,
+      "adquirido": true
     }
   ]
 }

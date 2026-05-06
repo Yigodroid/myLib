@@ -62,6 +62,14 @@ export default function Home() {
       // Filtro especial para libros con flag
       const filtrados = libros.filter(libro => libro.flag)
       setLibrosFiltrados(filtrados)
+    } else if (filtroActual === 'FILTER_ADQUIRIDO') {
+      // Filtro especial para libros adquiridos
+      const filtrados = libros.filter(libro => libro.adquirido)
+      setLibrosFiltrados(filtrados)
+    } else if (filtroActual === 'FILTER_NO_ADQUIRIDO') {
+      // Filtro especial para libros no adquiridos
+      const filtrados = libros.filter(libro => !libro.adquirido)
+      setLibrosFiltrados(filtrados)
     } else {
       const filtrados = libros.filter(libro =>
         libro.tematica1 === filtroActual ||
@@ -217,6 +225,10 @@ export default function Home() {
           <h2 className="text-xl sm:text-2xl font-bold text-gray-800">
             {filtroActual === 'FILTER_FLAG'
               ? '⭐ Libros Marcados'
+              : filtroActual === 'FILTER_ADQUIRIDO'
+              ? '🛒 Libros Adquiridos'
+              : filtroActual === 'FILTER_NO_ADQUIRIDO'
+              ? '📋 Libros No Adquiridos'
               : filtroActual
               ? `Libros de ${filtroActual}`
               : 'Mi Biblioteca'}
