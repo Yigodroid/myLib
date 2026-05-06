@@ -20,42 +20,50 @@ export default function FormCrearLibro({ onLibroCreado }: FormCrearLibroProps) {
     setCargando(true)
     setError(null)
 
-    const formData = new FormData(e.currentTarget)
-    
+    const form = e.currentTarget
+    const formData = new FormData(form)
+    const payload = {
+      titulo: formData.get('titulo'),
+      autor: formData.get('autor'),
+      autorId: parseInt((formData.get('autorId') as string) || '', 10) || 1,
+      ISBN: formData.get('ISBN'),
+      ISBN13: formData.get('ISBN13'),
+      estado: formData.get('estado') || 'disponible',
+      tematica1: formData.get('tematica1'),
+      tematica2: formData.get('tematica2'),
+      imageURL: formData.get('imageURL'),
+      owner: formData.get('owner'),
+      ubicacion: formData.get('ubicacion') || 'casa',
+      formato: formData.get('formato') || 'fisico',
+      leido: formData.get('leido') === 'on',
+      prestadoA: formData.get('prestadoA') || '',
+      rating: rating,
+      flag: flag,
+    }
+
     try {
-      const response = await fetch('/api/libros', {
+      const url = typeof window !== 'undefined'
+        ? `${window.location.origin}/api/libros`
+        : '/api/libros'
+
+      const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          titulo: formData.get('titulo'),
-          autor: formData.get('autor'),
-          autorId: parseInt(formData.get('autorId') as string) || 1,
-          ISBN: formData.get('ISBN'),
-          ISBN13: formData.get('ISBN13'),
-          estado: formData.get('estado') || 'disponible',
-          tematica1: formData.get('tematica1'),
-          tematica2: formData.get('tematica2'),
-          imageURL: formData.get('imageURL'),
-          owner: formData.get('owner'),
-          ubicacion: formData.get('ubicacion') || 'casa',
-          formato: formData.get('formato') || 'fisico',
-          leido: formData.get('leido') === 'on',
-          prestadoA: formData.get('prestadoA') || '',
-          rating: rating,
-          flag: flag,
-        }),
+        body: JSON.stringify(payload),
       })
 
+      const data = await response.json().catch(() => null)
+
       if (response.ok) {
-        e.currentTarget.reset()
+        form.reset()
         onLibroCreado()
       } else {
-        const data = await response.json()
-        setError(data.error || 'Error al crear el libro')
+        setError(data?.error || 'Error al crear el libro')
       }
     } catch (err) {
+      console.error('Error en handleSubmit FormCrearLibro:', err)
       setError('Error de conexión')
     } finally {
       setCargando(false)

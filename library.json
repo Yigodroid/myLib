@@ -1,14 +1,14 @@
 {
   "libros": [
     {
-      "id": "20074",
+      "id": 20074,
       "titulo": "12 Reglas para Vivir",
       "autorId": 1,
       "autor": "Jordan Peterson",
       "ISBN": "",
       "ISBN13": "9788408233114",
       "estado": "disponible",
-      "tematica1": "Bienestar Espiritual",
+      "tematica1": "Bienestar",
       "tematica2": "",
       "imageURL": "https://covers.openlibrary.org/b/isbn/9788408233114-L.jpg",
       "owner": "yigo",
@@ -20,7 +20,7 @@
       "flag": false
     },
     {
-      "id": "20091",
+      "id": 20091,
       "titulo": "Alto en Mitos",
       "autorId": 1,
       "autor": "Nico Soto",
@@ -39,14 +39,14 @@
       "flag": false
     },
     {
-      "id": "20114",
+      "id": 20114,
       "titulo": "Autohipnosis, Entrene su mente",
-      "autorId": "1070",
+      "autorId": 1,
       "autor": "Paul Anwandter",
       "ISBN": "",
       "ISBN13": "9789569562006",
-      "estado": "OK",
-      "tematica1": "0",
+      "estado": "disponible",
+      "tematica1": "Desarrollo Personal",
       "tematica2": "",
       "imageURL": "https://covers.openlibrary.org/b/isbn/9789569562006-L.jpg",
       "owner": "yigo",
@@ -58,7 +58,7 @@
       "flag": true
     },
     {
-      "id": "20019",
+      "id": 20019,
       "titulo": "Burlar al Diablo",
       "autorId": "1010",
       "autor": "Napoleón Hill",
@@ -77,7 +77,7 @@
       "flag": true
     },
     {
-      "id": "20081",
+      "id": 20081,
       "titulo": "Cambia tu futuro Por Las Aperturas Temporales",
       "autorId": "1042",
       "autor": "Lucile & Jean-Pierre Garnier Malet",
@@ -96,7 +96,7 @@
       "flag": true
     },
     {
-      "id": "20020",
+      "id": 20020,
       "titulo": "Cartas a Lucilio",
       "autorId": "1012",
       "autor": "Séneca",
@@ -115,7 +115,7 @@
       "flag": false
     },
     {
-      "id": "20096",
+      "id": 20096,
       "titulo": "Como Hacer que te pasen cosas buenas",
       "autorId": "1055",
       "autor": "Marian Rojas Estapé",
@@ -134,7 +134,7 @@
       "flag": false
     },
     {
-      "id": "20120",
+      "id": 20120,
       "titulo": "Como Invertir en Propiedades en Chile",
       "autorId": "1073",
       "autor": "Hernán Herrera",
@@ -153,26 +153,26 @@
       "flag": true
     },
     {
-      "id": "20100",
+      "id": 20100,
       "titulo": "Confianza",
-      "autorId": "1059",
+      "autorId": 1,
       "autor": "Arlene Unger",
       "ISBN": "",
       "ISBN13": "9788416407347",
-      "estado": "OK",
+      "estado": "disponible",
       "tematica1": "Bienestar",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788416407347-L.jpg",
+      "imageURL": "https://images.cdn1.buscalibre.com/fit-in/360x360/6a/84/6a846b2ba6f488cb64b071f5b8fabdbd.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20092",
+      "id": 20092,
       "titulo": "De La Cultura del Ego a la Cultura del Alma",
       "autorId": "1052",
       "autor": "Patricia May",
@@ -191,16 +191,16 @@
       "flag": false
     },
     {
-      "id": "20033",
+      "id": 20033,
       "titulo": "Deja de ser tu",
-      "autorId": "1020",
+      "autorId": 1,
       "autor": "Joe Dispenza",
       "ISBN": "",
-      "ISBN13": "9788491118237",
-      "estado": "OK",
+      "ISBN13": "9788479538255",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "Ego & Conciencia",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788491118237-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788479538255-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -210,16 +210,16 @@
       "flag": false
     },
     {
-      "id": "20068",
+      "id": 20068,
       "titulo": "Desarrolla tu cerebro",
-      "autorId": "1020",
+      "autorId": 1,
       "autor": "Joe Dispenza",
       "ISBN": "",
-      "ISBN13": "9788491118251",
-      "estado": "OK",
+      "ISBN13": "9788413844039",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "Ego & Conciencia",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788491118251-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788413844039-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -229,7 +229,7 @@
       "flag": false
     },
     {
-      "id": "20121",
+      "id": 20121,
       "titulo": "Desarrolla una mente prodigiosa",
       "autorId": 1,
       "autor": "Ramón Campayo",
@@ -248,33 +248,33 @@
       "flag": false
     },
     {
-      "id": "20056",
+      "id": 20056,
       "titulo": "Desarrolle el líder que está en uds 2.0",
-      "autorId": "1008",
+      "autorId": 1,
       "autor": "John Maxwell",
       "ISBN": "",
-      "ISBN13": "9781400203598",
-      "estado": "OK",
+      "ISBN13": "000000",
+      "estado": "disponible",
       "tematica1": "Liderazgo",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9781400203598-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20111",
+      "id": 20111,
       "titulo": "El Arte de Empezar 2.0",
       "autorId": 1,
       "autor": "Guy Kawasaki",
       "ISBN": "",
       "ISBN13": "9788466657662",
       "estado": "disponible",
-      "tematica1": "0",
+      "tematica1": "Productividad",
       "tematica2": "",
       "imageURL": "https://images.cdn1.buscalibre.com/fit-in/360x360/ebooks/471d4392-d37a-438b-8c90-83337888aaa6.jpg",
       "owner": "yigo",
@@ -286,7 +286,7 @@
       "flag": false
     },
     {
-      "id": "20062",
+      "id": 20062,
       "titulo": "El Camino del Artista",
       "autorId": "1032",
       "autor": "Julia Cameron",
@@ -305,7 +305,7 @@
       "flag": true
     },
     {
-      "id": "20088",
+      "id": 20088,
       "titulo": "El Cielo está Abierto",
       "autorId": 1,
       "autor": "Fresia Castro",
@@ -324,16 +324,16 @@
       "flag": true
     },
     {
-      "id": "20065",
+      "id": 20065,
       "titulo": "El Circulo de fuego",
-      "autorId": "1004",
+      "autorId": 1,
       "autor": "Miguel Ruiz",
       "ISBN": "",
-      "ISBN13": "9788479537432",
-      "estado": "OK",
+      "ISBN13": "9788479538958",
+      "estado": "disponible",
       "tematica1": "Conciencia",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788479537432-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788479538958-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -343,35 +343,16 @@
       "flag": false
     },
     {
-      "id": "20073",
+      "id": 20073,
       "titulo": "El Club de las 5 de la mañana",
-      "autorId": "1036",
+      "autorId": 1,
       "autor": "Robin Sharma",
       "ISBN": "",
-      "ISBN13": "9788491394815",
-      "estado": "OK",
+      "ISBN13": "9788466353472",
+      "estado": "disponible",
       "tematica1": "Productividad",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788491394815-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": true
-    },
-    {
-      "id": "20059",
-      "titulo": "El Ego es el enemigo",
-      "autorId": "1001",
-      "autor": "Ryan Holiday",
-      "ISBN": "",
-      "ISBN13": "9786077473947",
-      "estado": "OK",
-      "tematica1": "Estoicismo",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9786077473947-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788466353472-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -381,7 +362,7 @@
       "flag": false
     },
     {
-      "id": "20006",
+      "id": 20006,
       "titulo": "El Ego es el Enemigo",
       "autorId": "1001",
       "autor": "Ryan Holiday",
@@ -400,35 +381,16 @@
       "flag": false
     },
     {
-      "id": "20052",
+      "id": 20052,
       "titulo": "El Ejecutivo al minuto",
-      "autorId": "1028",
+      "autorId": 1,
       "autor": "Ken Blanchard",
       "ISBN": "",
-      "ISBN13": "9788449321092",
-      "estado": "OK",
+      "ISBN13": "000000",
+      "estado": "disponible",
       "tematica1": "Liderazgo",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788449321092-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": false
-    },
-    {
-      "id": "20101",
-      "titulo": "El Emprendedor Novel, Camino a la Plenitud",
-      "autorId": "1060",
-      "autor": "Sally Bendersky",
-      "ISBN": "",
-      "ISBN13": "9789560938817",
-      "estado": "OK",
-      "tematica1": "Emprendimiento",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9789560938817-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -438,7 +400,26 @@
       "flag": true
     },
     {
-      "id": "20063",
+      "id": 20101,
+      "titulo": "El Emprendedor Novel, Camino a la Plenitud",
+      "autorId": 1,
+      "autor": "Sally Bendersky",
+      "ISBN": "",
+      "ISBN13": "9789563061505",
+      "estado": "disponible",
+      "tematica1": "Emprendimiento",
+      "tematica2": "",
+      "imageURL": "https://images.cdn1.buscalibre.com/fit-in/360x360/86/82/868209f2f5a9427f983080c18338eebd.jpg",
+      "owner": "yigo",
+      "ubicacion": "casa",
+      "formato": "fisico",
+      "leido": false,
+      "prestadoA": "",
+      "rating": 0,
+      "flag": false
+    },
+    {
+      "id": 20063,
       "titulo": "El Hombre en Busca de Sentido",
       "autorId": "1033",
       "autor": "Viktor Franki",
@@ -457,7 +438,7 @@
       "flag": false
     },
     {
-      "id": "20027",
+      "id": 20027,
       "titulo": "El Hombre más rico de Babilonia",
       "autorId": "1016",
       "autor": "George Clason",
@@ -476,7 +457,7 @@
       "flag": true
     },
     {
-      "id": "20047",
+      "id": 20047,
       "titulo": "El Juego Infinito",
       "autorId": "1024",
       "autor": "Simon Sinek",
@@ -495,16 +476,16 @@
       "flag": true
     },
     {
-      "id": "20038",
+      "id": 20038,
       "titulo": "El Kybalión",
-      "autorId": "1023",
+      "autorId": 1,
       "autor": "Tres Iniciados",
       "ISBN": "",
-      "ISBN13": "9788491118244",
-      "estado": "OK",
+      "ISBN13": "9788478085958",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788491118244-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788478085958-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -514,26 +495,26 @@
       "flag": false
     },
     {
-      "id": "20061",
+      "id": 20061,
       "titulo": "El Libro de la Sabiduría",
-      "autorId": "1031",
+      "autorId": 1,
       "autor": "OSHO",
       "ISBN": "",
-      "ISBN13": "9788491118244",
-      "estado": "OK",
+      "ISBN13": "000000",
+      "estado": "disponible",
       "tematica1": "Ego & Conciencia",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788491118244-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20077",
+      "id": 20077,
       "titulo": "El Libro de Oro de Saint Germain",
       "autorId": "1039",
       "autor": "Conny Méndez",
@@ -552,26 +533,26 @@
       "flag": true
     },
     {
-      "id": "20087",
+      "id": 20087,
       "titulo": "El Libro Negro del Emprendedor",
-      "autorId": "1047",
+      "autorId": 1,
       "autor": "Fernando Trías de Bes",
       "ISBN": "",
-      "ISBN13": "9788496627543",
-      "estado": "OK",
+      "ISBN13": "9788496627260",
+      "estado": "disponible",
       "tematica1": "Negociacion",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788496627543-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788496627260-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20075",
+      "id": 20075,
       "titulo": "El Libro Tibetano de la Vida y de la Muerte",
       "autorId": "1038",
       "autor": "Sogyal Rimpoché",
@@ -590,7 +571,7 @@
       "flag": true
     },
     {
-      "id": "20098",
+      "id": 20098,
       "titulo": "El Método Silva de Control Mental",
       "autorId": "1057",
       "autor": "José Silva",
@@ -609,7 +590,7 @@
       "flag": true
     },
     {
-      "id": "20106",
+      "id": 20106,
       "titulo": "El Negocio del Siglo 21",
       "autorId": "1021",
       "autor": "Robert Kiyosaki",
@@ -628,7 +609,7 @@
       "flag": true
     },
     {
-      "id": "20001",
+      "id": 20001,
       "titulo": "El obstáculo es el camino",
       "autorId": 1,
       "autor": "Ryan Holiday",
@@ -647,16 +628,16 @@
       "flag": false
     },
     {
-      "id": "20066",
+      "id": 20066,
       "titulo": "El Placebo eres tu",
-      "autorId": "1020",
+      "autorId": 1,
       "autor": "Joe Dispenza",
       "ISBN": "",
-      "ISBN13": "9788491118237",
-      "estado": "OK",
+      "ISBN13": "9788479538828",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "Ego & Conciencia",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788491118237-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788479538828-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -666,7 +647,7 @@
       "flag": false
     },
     {
-      "id": "20040",
+      "id": 20040,
       "titulo": "El Poder de Confiar en ti mismo",
       "autorId": "1007",
       "autor": "Brian Tracy",
@@ -685,7 +666,7 @@
       "flag": true
     },
     {
-      "id": "20093",
+      "id": 20093,
       "titulo": "El Poder de la Conciencia",
       "autorId": "1053",
       "autor": "Neville Gobbard",
@@ -704,26 +685,26 @@
       "flag": false
     },
     {
-      "id": "20080",
+      "id": 20080,
       "titulo": "El Poder de Los Hábitos",
-      "autorId": "1041",
+      "autorId": 1,
       "autor": "Charles Duhigg",
       "ISBN": "",
-      "ISBN13": "9780307949486",
-      "estado": "OK",
+      "ISBN13": "9780525567141",
+      "estado": "disponible",
       "tematica1": "Productividad",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9780307949486-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9780525567141-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20009",
+      "id": 20009,
       "titulo": "El Poder del Ahora",
       "autorId": 1,
       "autor": "Eckhart Tolle",
@@ -738,55 +719,36 @@
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
+      "rating": 5,
+      "flag": false
+    },
+    {
+      "id": 20064,
+      "titulo": "El quinto acuerdo",
+      "autorId": 1,
+      "autor": "Miguel Ruiz",
+      "ISBN": "",
+      "ISBN13": "9781878424693",
+      "estado": "disponible",
+      "tematica1": "Conciencia",
+      "tematica2": "",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9781878424693-L.jpg",
+      "owner": "yigo",
+      "ubicacion": "casa",
+      "formato": "fisico",
+      "leido": false,
+      "prestadoA": "",
       "rating": 0,
       "flag": false
     },
     {
-      "id": "20060",
-      "titulo": "El Poder del Ahora",
-      "autorId": "1006",
-      "autor": "Eckhart Tolle",
-      "ISBN": "",
-      "ISBN13": "9786073837521",
-      "estado": "OK",
-      "tematica1": "Espiritualidad",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9786073837521-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": true
-    },
-    {
-      "id": "20064",
-      "titulo": "El quinto acuerdo",
-      "autorId": "1004",
-      "autor": "Miguel Ruiz",
-      "ISBN": "",
-      "ISBN13": "9788479537425",
-      "estado": "OK",
-      "tematica1": "Conciencia",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788479537425-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": true
-    },
-    {
-      "id": "20045",
-      "titulo": "El silencia habla",
-      "autorId": "1006",
+      "id": 20045,
+      "titulo": "El silencio habla",
+      "autorId": 1,
       "autor": "Eckhart Tolle",
       "ISBN": "",
       "ISBN13": "9788484452737",
-      "estado": "OK",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "",
       "imageURL": "https://covers.openlibrary.org/b/isbn/9788484452737-L.jpg",
@@ -799,13 +761,13 @@
       "flag": false
     },
     {
-      "id": "20058",
+      "id": 20058,
       "titulo": "El talento nunca es suficiente",
-      "autorId": "1008",
+      "autorId": 1,
       "autor": "John Maxwell",
       "ISBN": "",
       "ISBN13": "9780785289272",
-      "estado": "OK",
+      "estado": "disponible",
       "tematica1": "Liderazgo",
       "tematica2": "",
       "imageURL": "https://covers.openlibrary.org/b/isbn/9780785289272-L.jpg",
@@ -815,29 +777,29 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
-    },
-    {
-      "id": "20089",
-      "titulo": "Elon Musk",
-      "autorId": "1049",
-      "autor": "Ashlee Vance",
-      "ISBN": "",
-      "ISBN13": "9780062301253",
-      "estado": "OK",
-      "tematica1": "Biografías",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9780062301253-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
       "flag": true
     },
     {
-      "id": "20048",
+      "id": 20089,
+      "titulo": "Elon Musk",
+      "autorId": 1,
+      "autor": "Ashlee Vance",
+      "ISBN": "",
+      "ISBN13": "9788499426631",
+      "estado": "disponible",
+      "tematica1": "Biografías",
+      "tematica2": "",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788499426631-L.jpg",
+      "owner": "yigo",
+      "ubicacion": "casa",
+      "formato": "fisico",
+      "leido": true,
+      "prestadoA": "",
+      "rating": 0,
+      "flag": false
+    },
+    {
+      "id": 20048,
       "titulo": "Empieza con el porqué",
       "autorId": "1024",
       "autor": "Simon Sinek",
@@ -856,7 +818,7 @@
       "flag": true
     },
     {
-      "id": "20095",
+      "id": 20095,
       "titulo": "Encuentra tu persona Vitamina",
       "autorId": "1055",
       "autor": "Marian Rojas Estapé",
@@ -875,7 +837,7 @@
       "flag": false
     },
     {
-      "id": "20007",
+      "id": 20007,
       "titulo": "Enfócate, consejos para alcanzar el éxito en un mundo disperso",
       "autorId": 1,
       "autor": "Cal Newport",
@@ -894,7 +856,7 @@
       "flag": false
     },
     {
-      "id": "20050",
+      "id": 20050,
       "titulo": "Equipos de Equipos",
       "autorId": "1026",
       "autor": "General Stanley",
@@ -910,10 +872,10 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20085",
+      "id": 20085,
       "titulo": "Éxito con Gimnasia para el Cerebro",
       "autorId": 1,
       "autor": "Gail Denninson",
@@ -932,7 +894,7 @@
       "flag": false
     },
     {
-      "id": "20029",
+      "id": 20029,
       "titulo": "Extremadamente responsable",
       "autorId": "1018",
       "autor": "Jocko Willink",
@@ -951,7 +913,7 @@
       "flag": true
     },
     {
-      "id": "20102",
+      "id": 20102,
       "titulo": "Grafologia Facil",
       "autorId": "1061",
       "autor": "José Javier Simón",
@@ -970,7 +932,7 @@
       "flag": true
     },
     {
-      "id": "20103",
+      "id": 20103,
       "titulo": "Grafología General Vol 1",
       "autorId": "1062",
       "autor": "Pedro José Foglia",
@@ -989,7 +951,7 @@
       "flag": true
     },
     {
-      "id": "20104",
+      "id": 20104,
       "titulo": "Grafología General Vol 2",
       "autorId": "1062",
       "autor": "Pedro José Foglia",
@@ -1008,7 +970,7 @@
       "flag": true
     },
     {
-      "id": "20002",
+      "id": 20002,
       "titulo": "Hábitos Atómicos",
       "autorId": 1,
       "autor": "James Clear",
@@ -1027,26 +989,7 @@
       "flag": false
     },
     {
-      "id": "20008",
-      "titulo": "Hábitos Atómicos",
-      "autorId": 1,
-      "autor": "James Clear",
-      "ISBN": "",
-      "ISBN13": "9789569987632",
-      "estado": "disponible",
-      "tematica1": "Desarrollo Personal",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9789569987632-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 5,
-      "flag": false
-    },
-    {
-      "id": "20018",
+      "id": 20018,
       "titulo": "Hábitos para ser millonario",
       "autorId": "1007",
       "autor": "Brian Tracy",
@@ -1084,26 +1027,7 @@
       "flag": false
     },
     {
-      "id": 20124,
-      "titulo": "Házlo tan bien que no puedan ignorarte",
-      "autorId": 1,
-      "autor": "Cal Newport",
-      "ISBN": "",
-      "ISBN13": "9788411002738",
-      "estado": "disponible",
-      "tematica1": "Desarrollo Personal",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788411002738-L.jpg",
-      "owner": "Sin propietario",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": false
-    },
-    {
-      "id": "20099",
+      "id": 20099,
       "titulo": "Helgoland",
       "autorId": "1058",
       "autor": "Carlo Rovelli",
@@ -1122,13 +1046,13 @@
       "flag": true
     },
     {
-      "id": "20116",
+      "id": 20116,
       "titulo": "Historia Freak de la Música",
-      "autorId": "1072",
+      "autorId": 1,
       "autor": "Joaquín Barañao",
       "ISBN": "",
       "ISBN13": "9789569957086",
-      "estado": "OK",
+      "estado": "disponible",
       "tematica1": "Otros",
       "tematica2": "",
       "imageURL": "https://covers.openlibrary.org/b/isbn/9789569957086-L.jpg",
@@ -1141,33 +1065,33 @@
       "flag": true
     },
     {
-      "id": "20105",
+      "id": 20105,
       "titulo": "Incrementa tu IQ Financiero",
-      "autorId": "1021",
+      "autorId": 1,
       "autor": "Robert Kiyosaki",
       "ISBN": "",
       "ISBN13": "9781609618216",
-      "estado": "OK",
+      "estado": "disponible",
       "tematica1": "Mente Millonaria",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9781609618216-L.jpg",
+      "imageURL": "https://images.cdn2.buscalibre.com/fit-in/360x360/2c/70/2c7029a9889da324f3f5a25c59d08949.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20118",
+      "id": 20118,
       "titulo": "Introducción al Coaching Integral",
-      "autorId": "1070",
+      "autorId": 1,
       "autor": "Paul Anwandter",
       "ISBN": "",
       "ISBN13": "9789569562013",
-      "estado": "OK",
-      "tematica1": "0",
+      "estado": "disponible",
+      "tematica1": "Desarrollo Personal",
       "tematica2": "",
       "imageURL": "https://covers.openlibrary.org/b/isbn/9789569562013-L.jpg",
       "owner": "yigo",
@@ -1179,26 +1103,26 @@
       "flag": true
     },
     {
-      "id": "20031",
+      "id": 20031,
       "titulo": "La Actitud Mental Positiva",
-      "autorId": "1010",
+      "autorId": 1,
       "autor": "Napoleón Hill",
       "ISBN": "",
-      "ISBN13": "9788497593793",
-      "estado": "OK",
+      "ISBN13": "000000",
+      "estado": "disponible",
       "tematica1": "Desarrollo Personal",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788497593793-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20012",
+      "id": 20012,
       "titulo": "La Disciplina marcará tu destino",
       "autorId": 1,
       "autor": "Ryan Holiday",
@@ -1217,7 +1141,7 @@
       "flag": false
     },
     {
-      "id": "20082",
+      "id": 20082,
       "titulo": "La Fuerza de lo Invisible",
       "autorId": "1042",
       "autor": "Lucile & Jean-Pierre Garnier Malet",
@@ -1236,7 +1160,7 @@
       "flag": true
     },
     {
-      "id": "20022",
+      "id": 20022,
       "titulo": "La Liberación del Alma",
       "autorId": "1014",
       "autor": "Michael Singer",
@@ -1255,7 +1179,7 @@
       "flag": false
     },
     {
-      "id": "20032",
+      "id": 20032,
       "titulo": "La Llamada del Coraje",
       "autorId": "1001",
       "autor": "Ryan Holiday",
@@ -1274,7 +1198,7 @@
       "flag": true
     },
     {
-      "id": "20026",
+      "id": 20026,
       "titulo": "La Maestría del amor",
       "autorId": "1004",
       "autor": "Miguel Ruiz",
@@ -1293,7 +1217,7 @@
       "flag": true
     },
     {
-      "id": "20122",
+      "id": 20122,
       "titulo": "La Magia de Pensar en grande",
       "autorId": 1,
       "autor": "David Schwartz",
@@ -1312,7 +1236,7 @@
       "flag": false
     },
     {
-      "id": "20110",
+      "id": 20110,
       "titulo": "La Meta, Un proceso de Mejora Continua",
       "autorId": 1,
       "autor": "Eliyahu Goldratt",
@@ -1331,7 +1255,7 @@
       "flag": false
     },
     {
-      "id": "20039",
+      "id": 20039,
       "titulo": "La psicología de las ventas",
       "autorId": "1007",
       "autor": "Brian Tracy",
@@ -1347,10 +1271,10 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20005",
+      "id": 20005,
       "titulo": "La Psicología del dinero",
       "autorId": 1,
       "autor": "Morgan Housel",
@@ -1369,7 +1293,7 @@
       "flag": false
     },
     {
-      "id": "20016",
+      "id": 20016,
       "titulo": "La Quietud es la clave",
       "autorId": "1001",
       "autor": "Ryan Holiday",
@@ -1388,7 +1312,7 @@
       "flag": true
     },
     {
-      "id": "20069",
+      "id": 20069,
       "titulo": "La Receta de la Felicidad",
       "autorId": 1,
       "autor": "Deepak Chopra",
@@ -1407,14 +1331,14 @@
       "flag": false
     },
     {
-      "id": "20097",
+      "id": 20097,
       "titulo": "La Teoría Sintérgica",
-      "autorId": "1056",
+      "autorId": 1,
       "autor": "Jacobo Grinberg",
       "ISBN": "",
       "ISBN13": "9788410442986",
-      "estado": "OK",
-      "tematica1": "0",
+      "estado": "disponible",
+      "tematica1": "Espiritualidad",
       "tematica2": "",
       "imageURL": "https://covers.openlibrary.org/b/isbn/9788410442986-L.jpg",
       "owner": "yigo",
@@ -1426,7 +1350,7 @@
       "flag": true
     },
     {
-      "id": "20078",
+      "id": 20078,
       "titulo": "La Voz del \"Yo Soy\"",
       "autorId": "1039",
       "autor": "Conny Méndez",
@@ -1445,7 +1369,26 @@
       "flag": true
     },
     {
-      "id": "20035",
+      "id": 20126,
+      "titulo": "Las 17 Leyes Incuestionables del Trabajo en Equipo",
+      "autorId": 1,
+      "autor": "John Maxwell",
+      "ISBN": "",
+      "ISBN13": "9780881137392",
+      "estado": "disponible",
+      "tematica1": "Liderazgo",
+      "tematica2": "",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9780881137392-L.jpg",
+      "owner": "Sin propietario",
+      "ubicacion": "no-comprado",
+      "formato": "fisico",
+      "leido": false,
+      "prestadoA": "",
+      "rating": 0,
+      "flag": true
+    },
+    {
+      "id": 20035,
       "titulo": "Las 21 Leyes irrefutables del liderazgo",
       "autorId": "1008",
       "autor": "John Maxwell",
@@ -1461,10 +1404,10 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20021",
+      "id": 20021,
       "titulo": "Las 48 Leyes del Poder",
       "autorId": "1013",
       "autor": "Robert Greene",
@@ -1483,7 +1426,7 @@
       "flag": false
     },
     {
-      "id": "20049",
+      "id": 20049,
       "titulo": "Las 5 disfunciones de un equipo",
       "autorId": "1025",
       "autor": "Patrick Lencioni",
@@ -1502,7 +1445,7 @@
       "flag": false
     },
     {
-      "id": "20041",
+      "id": 20041,
       "titulo": "Las Leyes de la Suerte",
       "autorId": "1007",
       "autor": "Brian Tracy",
@@ -1521,7 +1464,7 @@
       "flag": true
     },
     {
-      "id": "20044",
+      "id": 20044,
       "titulo": "Las Llaves del Éxito",
       "autorId": "1010",
       "autor": "Napoleón Hill",
@@ -1540,7 +1483,7 @@
       "flag": false
     },
     {
-      "id": "20070",
+      "id": 20070,
       "titulo": "Las Siete Leyes Espirituales del Éxito",
       "autorId": 1,
       "autor": "Deepak Chopra",
@@ -1559,7 +1502,7 @@
       "flag": false
     },
     {
-      "id": "20083",
+      "id": 20083,
       "titulo": "Lecciones de Liderazgo Creativo",
       "autorId": 1,
       "autor": "Robert Iger",
@@ -1578,26 +1521,26 @@
       "flag": false
     },
     {
-      "id": "20057",
+      "id": 20057,
       "titulo": "Liderazgo, promesas y principios",
-      "autorId": "1008",
+      "autorId": 1,
       "autor": "John Maxwell",
       "ISBN": "",
-      "ISBN13": "9780881137392",
-      "estado": "OK",
+      "ISBN13": "000000",
+      "estado": "disponible",
       "tematica1": "Liderazgo",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9780881137392-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20051",
+      "id": 20051,
       "titulo": "Liderazgo: El poder de la inteligencia emocional",
       "autorId": "1027",
       "autor": "Daniel Goleman",
@@ -1616,7 +1559,7 @@
       "flag": true
     },
     {
-      "id": "20023",
+      "id": 20023,
       "titulo": "Lo que nunca cambia",
       "autorId": "1005",
       "autor": "Morgan Housel",
@@ -1635,7 +1578,26 @@
       "flag": true
     },
     {
-      "id": "20011",
+      "id": 20138,
+      "titulo": "Los 21 Minutos mas Poderosos en el día de un Líder",
+      "autorId": 1,
+      "autor": "John Maxwell",
+      "ISBN": "",
+      "ISBN13": "9788423439164",
+      "estado": "disponible",
+      "tematica1": "",
+      "tematica2": "",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788423439164-L.jpg",
+      "owner": "Sin propietario",
+      "ubicacion": "casa",
+      "formato": "fisico",
+      "leido": false,
+      "prestadoA": "",
+      "rating": 0,
+      "flag": true
+    },
+    {
+      "id": 20011,
       "titulo": "Los 21 secretos del éxito de los millonarios",
       "autorId": "1007",
       "autor": "Brian Tracy",
@@ -1651,10 +1613,10 @@
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20004",
+      "id": 20004,
       "titulo": "Los 4 acuerdos",
       "autorId": "1004",
       "autor": "Miguel Ruiz",
@@ -1673,7 +1635,7 @@
       "flag": false
     },
     {
-      "id": "20013",
+      "id": 20013,
       "titulo": "Los 5 niveles de liderazgo",
       "autorId": "1008",
       "autor": "John Maxwell",
@@ -1692,7 +1654,7 @@
       "flag": false
     },
     {
-      "id": "20112",
+      "id": 20112,
       "titulo": "Los 7 hábitos de la gente altamente efectiva",
       "autorId": 1,
       "autor": "Stephen Covey",
@@ -1711,7 +1673,7 @@
       "flag": false
     },
     {
-      "id": "20094",
+      "id": 20094,
       "titulo": "Manual del Sanador Vibracional",
       "autorId": "1054",
       "autor": "Ted Andrews",
@@ -1730,7 +1692,7 @@
       "flag": true
     },
     {
-      "id": "20028",
+      "id": 20028,
       "titulo": "Manual para la Vida",
       "autorId": "1017",
       "autor": "Epicteto",
@@ -1749,7 +1711,7 @@
       "flag": true
     },
     {
-      "id": "20119",
+      "id": 20119,
       "titulo": "Manual Práctico de Vocerías",
       "autorId": "1069",
       "autor": "Héctor Vélis-Meza",
@@ -1768,7 +1730,7 @@
       "flag": true
     },
     {
-      "id": "20024",
+      "id": 20024,
       "titulo": "Meditaciones",
       "autorId": "1015",
       "autor": "Marco Aurelio",
@@ -1787,26 +1749,26 @@
       "flag": true
     },
     {
-      "id": "20036",
+      "id": 20036,
       "titulo": "Mente millonaria",
-      "autorId": "1005",
+      "autorId": 1,
       "autor": "Morgan Housel",
       "ISBN": "",
-      "ISBN13": "9788408283447",
-      "estado": "OK",
+      "ISBN13": "000000",
+      "estado": "disponible",
       "tematica1": "Mente Millonaria",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788408283447-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20076",
+      "id": 20076,
       "titulo": "Metafísica 4 en 1",
       "autorId": "1039",
       "autor": "Conny Méndez",
@@ -1825,7 +1787,7 @@
       "flag": true
     },
     {
-      "id": "20115",
+      "id": 20115,
       "titulo": "Mi Abuela",
       "autorId": 1,
       "autor": "Chris Pueyo",
@@ -1844,7 +1806,7 @@
       "flag": false
     },
     {
-      "id": "20108",
+      "id": 20108,
       "titulo": "Mindfulness y Neuroplasticidad",
       "autorId": 1,
       "autor": "Melanie Greenberg",
@@ -1863,26 +1825,26 @@
       "flag": false
     },
     {
-      "id": "20109",
+      "id": 20109,
       "titulo": "Mindset La Actitud del Éxito",
-      "autorId": "1065",
+      "autorId": 1,
       "autor": "Carol Dweck",
       "ISBN": "",
-      "ISBN13": "9788499924212",
-      "estado": "OK",
+      "ISBN13": "9788416579167",
+      "estado": "disponible",
       "tematica1": "Bienestar",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788499924212-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788416579167-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20025",
+      "id": 20025,
       "titulo": "Minimalismo digital",
       "autorId": "1003",
       "autor": "Cal Newport",
@@ -1901,16 +1863,16 @@
       "flag": false
     },
     {
-      "id": "20054",
+      "id": 20043,
       "titulo": "Multiplicadores",
-      "autorId": "1030",
+      "autorId": 1,
       "autor": "Liz Wiseman",
       "ISBN": "",
       "ISBN13": "9788498752289",
-      "estado": "OK",
-      "tematica1": "Liderazgo",
+      "estado": "disponible",
+      "tematica1": "Mente Millonaria",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788498752289-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -1920,54 +1882,35 @@
       "flag": true
     },
     {
-      "id": "20014",
+      "id": 20014,
       "titulo": "Nunca dividas la diferencia",
-      "autorId": "1009",
+      "autorId": 1,
       "autor": "Chris Voss",
       "ISBN": "",
       "ISBN13": "9788416029747",
-      "estado": "OK",
+      "estado": "disponible",
       "tematica1": "Liderazgo",
       "tematica2": "Negociacion",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788416029747-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/000000-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": false
+      "flag": true
     },
     {
-      "id": "20030",
+      "id": 20030,
       "titulo": "Obtenga el Sí",
-      "autorId": "1019",
+      "autorId": 1,
       "autor": "Roger Fisher & William Ury",
       "ISBN": "",
-      "ISBN13": "9788423439164",
-      "estado": "OK",
+      "ISBN13": "9788498751079",
+      "estado": "disponible",
       "tematica1": "Negociacion",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788423439164-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": true
-    },
-    {
-      "id": "20043",
-      "titulo": "Obtenga su propia riqueza",
-      "autorId": "1007",
-      "autor": "Brian Tracy",
-      "ISBN": "",
-      "ISBN13": "9780471768067",
-      "estado": "OK",
-      "tematica1": "Mente Millonaria",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9780471768067-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788498751079-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -1977,26 +1920,26 @@
       "flag": false
     },
     {
-      "id": "20034",
+      "id": 20034,
       "titulo": "Padre Rico Padre Pobre",
-      "autorId": "1021",
+      "autorId": 1,
       "autor": "Robert Kiyosaki",
       "ISBN": "",
-      "ISBN13": "9789877351264",
-      "estado": "OK",
+      "ISBN13": "9789870400455",
+      "estado": "disponible",
       "tematica1": "Mente Millonaria",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9789877351264-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9789870400455-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20107",
+      "id": 20107,
       "titulo": "Pensar rápido, pensar despacio",
       "autorId": 1,
       "autor": "Daniel Kahneman",
@@ -2015,7 +1958,7 @@
       "flag": false
     },
     {
-      "id": "20015",
+      "id": 20015,
       "titulo": "Piénse y Hagase Rico",
       "autorId": "1010",
       "autor": "Napoleón Hill",
@@ -2034,16 +1977,16 @@
       "flag": false
     },
     {
-      "id": "20037",
+      "id": 20037,
       "titulo": "Poder Sin Límites",
-      "autorId": "1022",
+      "autorId": 1,
       "autor": "Anthony Robbins",
       "ISBN": "",
-      "ISBN13": "9788479532017",
-      "estado": "OK",
+      "ISBN13": "9788499085500",
+      "estado": "disponible",
       "tematica1": "Desarrollo Personal",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788479532017-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788499085500-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -2053,7 +1996,7 @@
       "flag": false
     },
     {
-      "id": "20086",
+      "id": 20086,
       "titulo": "Por qué dormimos",
       "autorId": 1,
       "autor": "Matthew Walker",
@@ -2072,7 +2015,7 @@
       "flag": false
     },
     {
-      "id": "20079",
+      "id": 20079,
       "titulo": "Potencia Tus Genes",
       "autorId": 1,
       "autor": "Ben Lynch",
@@ -2091,26 +2034,26 @@
       "flag": false
     },
     {
-      "id": "20046",
+      "id": 20046,
       "titulo": "Practicando el Poder del Ahora",
-      "autorId": "1006",
+      "autorId": 1,
       "autor": "Eckhart Tolle",
       "ISBN": "",
-      "ISBN13": "9788483460863",
-      "estado": "OK",
+      "ISBN13": "9788484452744",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788483460863-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788484452744-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20003",
+      "id": 20003,
       "titulo": "Productividad Lenta",
       "autorId": "1003",
       "autor": "Cal Newport",
@@ -2129,64 +2072,64 @@
       "flag": true
     },
     {
-      "id": "20017",
+      "id": 20017,
       "titulo": "Psico-Cibernetica",
-      "autorId": "1011",
+      "autorId": 1,
       "autor": "Maxwell Maltz",
       "ISBN": "",
-      "ISBN13": "9788410335653",
-      "estado": "OK",
+      "ISBN13": "9788495292087",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "Ego & Conciencia",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788410335653-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788495292087-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20084",
+      "id": 20084,
       "titulo": "Ramtha, el Libro Blanco",
-      "autorId": "1044",
+      "autorId": 1,
       "autor": "Bel Shanai Pub.",
       "ISBN": "",
-      "ISBN13": "9781578730453",
-      "estado": "OK",
+      "ISBN13": "9789585304307",
+      "estado": "disponible",
       "tematica1": "Espiritualidad",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9781578730453-L.jpg",
+      "imageURL": "https://images.cdn1.buscalibre.com/fit-in/360x360/2e/72/2e72b10924e796bcb5864d5057182b07.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20117",
+      "id": 20117,
       "titulo": "Retírate Joven y Rico",
-      "autorId": "1021",
+      "autorId": 1,
       "autor": "Robert Kiyosaki",
       "ISBN": "",
-      "ISBN13": "9788466629935",
-      "estado": "OK",
+      "ISBN13": "9789707702875",
+      "estado": "disponible",
       "tematica1": "Mente Millonaria",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788466629935-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9789707702875-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20055",
+      "id": 20055,
       "titulo": "Rompe la barrera del No",
       "autorId": "1009",
       "autor": "Chris Voss",
@@ -2205,35 +2148,16 @@
       "flag": false
     },
     {
-      "id": "20042",
+      "id": 20042,
       "titulo": "Si lo crees, lo creas",
-      "autorId": "1007",
+      "autorId": 1,
       "autor": "Brian Tracy",
       "ISBN": "",
-      "ISBN13": "9789877353464",
-      "estado": "OK",
+      "ISBN13": "9781644730485",
+      "estado": "disponible",
       "tematica1": "Mente Millonaria",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9789877353464-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": true
-    },
-    {
-      "id": "20067",
-      "titulo": "Sobrenatural",
-      "autorId": "1020",
-      "autor": "Joe Dispenza",
-      "ISBN": "",
-      "ISBN13": "9788491118244",
-      "estado": "OK",
-      "tematica1": "Espiritualidad",
-      "tematica2": "Ego & Conciencia",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9788491118244-L.jpg",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9781644730485-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
@@ -2243,26 +2167,45 @@
       "flag": false
     },
     {
-      "id": "20090",
-      "titulo": "Somos polvo de Estrellas",
-      "autorId": "1050",
-      "autor": "José María Maza Sancho",
+      "id": 20067,
+      "titulo": "Sobrenatural",
+      "autorId": 1,
+      "autor": "Joe Dispenza",
       "ISBN": "",
-      "ISBN13": "9789560103536",
-      "estado": "OK",
-      "tematica1": "Ciencias",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9789560103536-L.jpg",
+      "ISBN13": "9788416720200",
+      "estado": "disponible",
+      "tematica1": "Espiritualidad",
+      "tematica2": "Ego & Conciencia",
+      "imageURL": "https://covers.openlibrary.org/b/isbn/9788416720200-L.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     },
     {
-      "id": "20071",
+      "id": 20090,
+      "titulo": "Somos polvo de Estrellas",
+      "autorId": 1,
+      "autor": "José María Maza Sancho",
+      "ISBN": "",
+      "ISBN13": "9788491992431",
+      "estado": "disponible",
+      "tematica1": "Ciencias",
+      "tematica2": "",
+      "imageURL": "https://images.cdn2.buscalibre.com/fit-in/360x360/bf/bb/bfbb2c8ee33c4abe105f507748ebae26.jpg",
+      "owner": "yigo",
+      "ubicacion": "casa",
+      "formato": "fisico",
+      "leido": false,
+      "prestadoA": "",
+      "rating": 0,
+      "flag": false
+    },
+    {
+      "id": 20071,
       "titulo": "Super Cerebro",
       "autorId": 1,
       "autor": "Deepak Chopra",
@@ -2281,45 +2224,7 @@
       "flag": false
     },
     {
-      "id": 20125,
-      "titulo": "Test Book",
-      "autorId": 1,
-      "autor": "Test Author",
-      "ISBN": "",
-      "ISBN13": "",
-      "estado": "disponible",
-      "tematica1": "",
-      "tematica2": "",
-      "imageURL": "",
-      "owner": "Sin propietario",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": false
-    },
-    {
-      "id": "20053",
-      "titulo": "Trillion Dollar Coach",
-      "autorId": "1029",
-      "autor": "Eric Schmidt, Jonathan Rosemberg & Alan Eagle",
-      "ISBN": "",
-      "ISBN13": "9781473675988",
-      "estado": "OK",
-      "tematica1": "Liderazgo",
-      "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9781473675988-L.jpg",
-      "owner": "yigo",
-      "ubicacion": "casa",
-      "formato": "fisico",
-      "leido": false,
-      "prestadoA": "",
-      "rating": 0,
-      "flag": false
-    },
-    {
-      "id": "20072",
+      "id": 20072,
       "titulo": "Tus Zonas Erróneas",
       "autorId": 1,
       "autor": "Wayne Dyer",
@@ -2338,7 +2243,7 @@
       "flag": false
     },
     {
-      "id": "20010",
+      "id": 20010,
       "titulo": "Un nuevo mundo, ahora",
       "autorId": 1,
       "autor": "Eckhart Tolle",
@@ -2357,23 +2262,23 @@
       "flag": false
     },
     {
-      "id": "20113",
+      "id": 20113,
       "titulo": "Vicios en el Lenguaje Chileno",
-      "autorId": "1069",
+      "autorId": 1,
       "autor": "Héctor Vélis-Meza",
       "ISBN": "",
       "ISBN13": "9789562585804",
-      "estado": "OK",
+      "estado": "disponible",
       "tematica1": "Ciencias",
       "tematica2": "",
-      "imageURL": "https://covers.openlibrary.org/b/isbn/9789562585804-L.jpg",
+      "imageURL": "https://image.cdn0.buscalibre.com/3543567.__RS360x360__.jpg",
       "owner": "yigo",
       "ubicacion": "casa",
       "formato": "fisico",
       "leido": false,
       "prestadoA": "",
       "rating": 0,
-      "flag": true
+      "flag": false
     }
   ]
 }

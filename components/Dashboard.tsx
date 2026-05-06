@@ -58,79 +58,79 @@ export default function Dashboard({ libros, onFiltrar, onLimpiarFlags }: Dashboa
   ]
 
   return (
-    <section className="bg-white rounded-lg p-6 border border-gray-200 shadow-md">
-      <div className="flex items-start justify-between mb-6 gap-4">
+    <section className="bg-white rounded-lg p-4 sm:p-6 border border-gray-200 shadow-md">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-6 gap-4">
         <div>
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">📊 Dashboard de Biblioteca</h2>
-          <p className="text-gray-600">Resumen rápido de tu colección.</p>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">📊 Dashboard de Biblioteca</h2>
+          <p className="text-gray-600 text-sm sm:text-base">Resumen rápido de tu colección.</p>
         </div>
         <button
           onClick={onLimpiarFlags}
-          className="rounded-lg border border-red-300 bg-red-50 text-red-700 px-4 py-2 text-sm font-medium hover:bg-red-100 transition"
+          className="rounded-lg border border-red-300 bg-red-50 text-red-700 px-3 sm:px-4 py-2 text-sm font-medium hover:bg-red-100 self-start sm:self-auto"
         >
           Limpiar marcas
         </button>
       </div>
 
       {/* Total de libros y métricas */}
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <div
           onClick={() => onFiltrar(null)}
-          className="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg p-6 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105"
+          className="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg p-4 sm:p-6 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105"
         >
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-semibold mb-2">Total de Libros</h3>
-              <p className="text-3xl font-bold">{totalLibros}</p>
+              <h3 className="text-sm sm:text-lg font-semibold mb-2">Total de Libros</h3>
+              <p className="text-2xl sm:text-3xl font-bold">{totalLibros}</p>
             </div>
-            <div className="text-4xl">📚</div>
+            <div className="text-3xl sm:text-4xl">📚</div>
           </div>
         </div>
         <div
           onClick={() => onFiltrar('FILTER_FLAG')}
-          className="bg-gradient-to-r from-red-500 to-red-600 text-white rounded-lg p-6 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105"
+          className="bg-gradient-to-r from-red-500 to-red-600 text-white rounded-lg p-4 sm:p-6 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105"
         >
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-semibold mb-2">Marcados</h3>
-              <p className="text-3xl font-bold">{librosConFlag}</p>
+              <h3 className="text-sm sm:text-lg font-semibold mb-2">Marcados</h3>
+              <p className="text-2xl sm:text-3xl font-bold">{librosConFlag}</p>
             </div>
-            <div className="text-4xl">⭐</div>
+            <div className="text-3xl sm:text-4xl">⭐</div>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg p-6">
+        <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg p-4 sm:p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-semibold mb-2">Leídos</h3>
-              <p className="text-3xl font-bold">{librosLeidos}</p>
+              <h3 className="text-sm sm:text-lg font-semibold mb-2">Leídos</h3>
+              <p className="text-2xl sm:text-3xl font-bold">{librosLeidos}</p>
             </div>
-            <div className="text-4xl">📘</div>
+            <div className="text-3xl sm:text-4xl">📘</div>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-gray-500 to-slate-600 text-white rounded-lg p-6">
+        <div className="bg-gradient-to-r from-gray-500 to-slate-600 text-white rounded-lg p-4 sm:p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-semibold mb-2">No Leídos</h3>
-              <p className="text-3xl font-bold">{librosNoLeidos}</p>
+              <h3 className="text-sm sm:text-lg font-semibold mb-2">No Leídos</h3>
+              <p className="text-2xl sm:text-3xl font-bold">{librosNoLeidos}</p>
             </div>
-            <div className="text-4xl">📕</div>
+            <div className="text-3xl sm:text-4xl">📕</div>
           </div>
         </div>
       </div>
 
       {/* Temáticas */}
       <div>
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">📂 Libros por Temática</h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4">📂 Libros por Temática</h3>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
           {tematicasOrdenadas.map(([tematica, count], index) => (
             <div
               key={tematica}
               onClick={() => onFiltrar(tematica)}
-              className={`rounded-lg p-4 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105 border-2 ${coloresTematicas[index % coloresTematicas.length]}`}
+              className={`rounded-lg p-3 sm:p-4 cursor-pointer hover:shadow-lg transition duration-200 transform hover:scale-105 border-2 ${coloresTematicas[index % coloresTematicas.length]}`}
             >
               <div className="text-center">
-                <p className="text-sm font-medium mb-1">{tematica}</p>
-                <p className="text-2xl font-bold">{count}</p>
+                <p className="text-xs sm:text-sm font-medium mb-1 truncate">{tematica}</p>
+                <p className="text-lg sm:text-2xl font-bold">{count}</p>
               </div>
             </div>
           ))}

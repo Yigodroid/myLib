@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import StarRating from './StarRating'
@@ -36,6 +36,14 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
   const [libroAEliminar, setLibroAEliminar] = useState<Libro | null>(null)
   const [eliminando, setEliminando] = useState(false)
   const router = useRouter()
+
+  const autorCounts = useMemo(() => {
+    return libros.reduce((acc, libro) => {
+      const autor = libro.autor || 'Desconocido'
+      acc[autor] = (acc[autor] || 0) + 1
+      return acc
+    }, {} as Record<string, number>)
+  }, [libros])
 
   const estadoColores: Record<string, string> = {
     disponible: 'bg-green-100 text-green-800',
@@ -187,7 +195,7 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
       {librosConImagenes.map((libro) => (
         <div
           key={libro.id}
@@ -202,7 +210,7 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
             🗑️
           </button>
           {/* Imagen de portada */}
-          <div className="h-64 bg-white overflow-hidden flex items-center justify-center border-b border-gray-200">
+          <div className="h-48 sm:h-64 bg-white overflow-hidden flex items-center justify-center border-b border-gray-200">
             {libro.imageURL && libro.imageURL !== '0' && libro.imageURL !== '' && !erroresImagen[libro.id] ? (
               <Image
                 src={libro.imageURL}
@@ -214,19 +222,19 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
                 onError={() => setErroresImagen(prev => ({ ...prev, [libro.id]: true }))}
               />
             ) : (
-              <div className="text-5xl">📖</div>
+              <div className="text-4xl sm:text-5xl">📖</div>
             )}
           </div>
 
           {/* Contenido */}
-          <div className="p-4">
+          <div className="p-3 sm:p-4">
             {/* ID */}
             <p className="text-xs text-gray-500 mb-3">
               <span className="font-semibold">ID:</span> {libro.id || '0'}
             </p>
 
             {/* Título */}
-            <h3 className="text-lg font-bold text-gray-800 mb-2 line-clamp-2">
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2 line-clamp-2">
               {libro.titulo}
             </h3>
 
@@ -234,12 +242,15 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
             <p className="text-sm text-gray-600 mb-3">
               <span className="font-semibold">Autor:</span>{' '}
               {libro.autor && libro.autor !== 'Desconocido' ? (
-                <button
-                  onClick={() => handleAutorClick(libro.autor)}
-                  className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer"
-                >
-                  {libro.autor}
-                </button>
+                <>
+                  <button
+                    onClick={() => handleAutorClick(libro.autor)}
+                    className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer"
+                  >
+                    {libro.autor}
+                  </button>{' '}
+                  ({autorCounts[libro.autor]})
+                </>
               ) : (
                 'Desconocido'
               )}
@@ -287,17 +298,11 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
                   type="checkbox"
                   id={`flag-${libro.id}`}
                   checked={libro.flag || false}
-                  onMouseDown={(e) => e.preventDefault()}
-                  onClick={() => actualizarFlag(libro.id, !libro.flag)}
+                  onChange={() => actualizarFlag(libro.id, !libro.flag)}
                   className="h-3 w-3 text-red-600 focus:ring-red-500 border-gray-300 rounded"
                 />
                 <label
                   htmlFor={`flag-${libro.id}`}
-                  onMouseDown={(e) => e.preventDefault()}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    actualizarFlag(libro.id, !libro.flag)
-                  }}
                   className="ml-2 text-xs text-gray-600 cursor-pointer"
                 >
                   Marcar
@@ -306,14 +311,14 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
             </div>
 
             {/* Estado y pie */}
-            <div className="pt-3 border-t border-gray-200 flex justify-between items-center">
-              <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full ${estadoColores[libro.estado] || 'bg-gray-100 text-gray-800'}`}>
+            <div className="pt-3 border-t border-gray-200 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+              <span className={`inline-block text-xs font-semibold px-2 sm:px-3 py-1 rounded-full ${estadoColores[libro.estado] || 'bg-gray-100 text-gray-800'}`}>
                 {libro.estado}
               </span>
               {onEditarLibro && (
                 <button
                   onClick={() => onEditarLibro(libro)}
-                  className="text-blue-600 hover:text-blue-800 text-sm font-medium"
+                  className="text-blue-600 hover:text-blue-800 text-sm font-medium self-start sm:self-auto"
                 >
                   Editar
                 </button>
@@ -325,16 +330,16 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
 
       {libroAEliminar && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-4 py-6">
-          <div className="max-w-md w-full rounded-3xl bg-white p-6 shadow-xl border border-gray-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Confirmar eliminación</h3>
-            <p className="text-gray-600 mb-6">
+          <div className="max-w-sm sm:max-w-md w-full rounded-3xl bg-white p-4 sm:p-6 shadow-xl border border-gray-200">
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4">Confirmar eliminación</h3>
+            <p className="text-gray-600 mb-6 text-sm sm:text-base">
               ¿Estás seguro de que deseas eliminar «{libroAEliminar.titulo}»?
             </p>
             <div className="flex flex-col gap-3 sm:flex-row sm:justify-end">
               <button
                 type="button"
                 onClick={cancelarEliminarLibro}
-                className="rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+                className="rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 order-2 sm:order-1"
               >
                 Cancelar
               </button>
@@ -342,7 +347,7 @@ export default function ListaLibros({ libros, onActualizar, onEditarLibro }: Lis
                 type="button"
                 onClick={confirmarEliminarLibro}
                 disabled={eliminando}
-                className="rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700 disabled:opacity-50"
+                className="rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700 disabled:opacity-50 order-1 sm:order-2"
               >
                 {eliminando ? 'Eliminando...' : 'Eliminar'}
               </button>

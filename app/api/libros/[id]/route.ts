@@ -7,7 +7,11 @@ const libraryPath = join(process.cwd(), 'library.json')
 function readLibrary() {
   try {
     const data = readFileSync(libraryPath, 'utf-8')
-    return JSON.parse(data).libros
+    const parsed = JSON.parse(data).libros || []
+    return parsed.map((libro: any) => ({
+      ...libro,
+      id: Number(libro.id),
+    }))
   } catch (error) {
     console.error('Error leyendo library.json:', error)
     return []
@@ -35,7 +39,7 @@ export async function PATCH(
     const libros = readLibrary()
 
     // Encontrar el libro por ID
-    const indiceLibro = libros.findIndex((libro: any) => libro.id === libroId)
+    const indiceLibro = libros.findIndex((libro: any) => Number(libro.id) === libroId)
 
     if (indiceLibro === -1) {
       return NextResponse.json(
@@ -67,7 +71,7 @@ export async function DELETE(
   try {
     const libroId = parseInt(params.id)
     const libros = readLibrary()
-    const librosFiltrados = libros.filter((libro: any) => libro.id !== libroId)
+    const librosFiltrados = libros.filter((libro: any) => Number(libro.id) !== libroId)
 
     if (librosFiltrados.length === libros.length) {
       return NextResponse.json(

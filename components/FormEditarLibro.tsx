@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useTopics } from '../lib/useTopics'
 import StarRating from './StarRating'
 
@@ -37,6 +37,34 @@ export default function FormEditarLibro({ libro, onLibroEditado, onCancelar }: F
   const [flag, setFlag] = useState(libro.flag || false)
   const [imageURL, setImageURL] = useState(libro.imageURL || '')
   const [previewImage, setPreviewImage] = useState(libro.imageURL || '')
+  const [autoresRegistrados, setAutoresRegistrados] = useState<string[]>([])
+  const tituloInputRef = useRef<HTMLInputElement | null>(null)
+
+  useEffect(() => {
+    tituloInputRef.current?.focus()
+  }, [])
+
+  useEffect(() => {
+    const cargarAutores = async () => {
+      try {
+        const response = await fetch('/api/libros')
+        if (!response.ok) return
+        const libros = await response.json()
+        const autores = Array.from(
+          new Set(
+            libros
+              .map((libro: any) => libro.autor?.trim())
+              .filter((autor: string) => autor && autor !== 'Desconocido')
+          )
+        )
+        setAutoresRegistrados(autores)
+      } catch (error) {
+        console.error('Error cargando autores registrados:', error)
+      }
+    }
+
+    cargarAutores()
+  }, [])
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -116,6 +144,7 @@ export default function FormEditarLibro({ libro, onLibroEditado, onCancelar }: F
             name="titulo"
             required
             defaultValue={libro.titulo}
+            ref={tituloInputRef}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Ej: El Quijote"
           />
@@ -129,10 +158,16 @@ export default function FormEditarLibro({ libro, onLibroEditado, onCancelar }: F
             type="text"
             id="autor"
             name="autor"
+            list="autores-registrados"
             defaultValue={libro.autor}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Ej: Miguel de Cervantes"
           />
+          <datalist id="autores-registrados">
+            {autoresRegistrados.map((autor) => (
+              <option key={autor} value={autor} />
+            ))}
+          </datalist>
         </div>
       </div>
 
